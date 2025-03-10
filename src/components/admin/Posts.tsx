@@ -13,9 +13,6 @@ const Posts = () => {
 
   const posts  = useAppSelector((state) => state.post.postsAdmin);
 
-
-
-  console.log("posts",posts);
   
 
   useEffect(()=>{
