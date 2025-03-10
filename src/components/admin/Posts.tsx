@@ -13,7 +13,7 @@ const Posts = () => {
 
   const posts  = useAppSelector((state) => state.post.postsAdmin);
 
-  
+  console.log("first")
 
   useEffect(()=>{
      dispatch(fetchAllPostsAdmin())
